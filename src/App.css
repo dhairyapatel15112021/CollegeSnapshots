@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+.line{
+    height: 0;
+    width: 100%;
+    /* border: 1px solid #faebd0; */
+    border: 0.7px solid #AE2220;
+}

@@ -1,0 +1,27 @@
+-> This is Project "collegeonepager" (3rd for revising react and css) is One page website which is build in purpoose of learning
+responsiveness(Yes , This Website is moderately responsive) .
+-> Technologies used : react , react-router-dom , css , splide.js
+-> learning from project :
+    1) revision of react , CSS , some HTML also , 
+    2) react-router-dom for routing + isActive attribute/value of NavLink ,
+    3) Splide.js for carasouel , 
+    4) CSS flexbox.
+
+-> learning for Improvement from Project :
+    1) Make a Proper Design Before Development ,
+    2) After making this project i feels like i should explore vmax , vmin for font sizing.
+    3) If we want handle an error and want to custom Error Page then we have to think it from ealry stage otherwise it will 
+        little bit hard to do in the end.
+    4) Margin - Padding from each side should be identical.
+
+-> Takeaway OR learning from Project says by AI: 
+    1) Consistent Class Naming: Ensure consistent naming conventions for classes. For example, 
+                                use either camelCase or kebab-case consistently across your stylesheets.
+    2) Responsive Design: Consider making your components more responsive for a variety of screen sizes. 
+                            You've started adding some responsiveness, but it can be extended further.
+    3) Comments: Add comments in your CSS and JSX files to explain complex styles, components, or any critical logic.
+    4) Font Size Units: Consider using relative font size units (e.g., em or rem) for better scalability.
+    5) CSS Variables: Consider using CSS variables to define reusable values like colors or font sizes.
+    6) Nested Routes: Consider using nested routes more extensively, especially if different pages share common layout component.
+    7) Error Boundaries: Implement error boundaries to gracefully handle errors in your components.
+    8) Modularization: If your project grows, consider further modularizing your components, styles, and assets for easier maintenance.

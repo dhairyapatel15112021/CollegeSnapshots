@@ -1,0 +1,25 @@
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.3vw;
+    height: 70px;
+    width: 100%;
+    box-shadow: rgba(147, 145, 145, 0.35) 0px 5px 15px;
+}
+.icons_bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 12vw;
+}
+@media only screen and (max-width:600px)  {
+    .footer{
+        font-size: 3vw;
+        height: 50px;
+        justify-content: space-around;
+    }
+    .icons_bar{
+        width: 22vw;
+    }
+}

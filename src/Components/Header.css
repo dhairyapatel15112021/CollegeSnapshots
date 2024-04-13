@@ -1,0 +1,62 @@
+.header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.3vw;
+    box-shadow: rgba(147, 145, 145, 0.35) 0px 5px 15px;
+    /* box-shadow: [horizontal offset] [vertical offset] [blur radius] [spread radius] [color]; */
+}
+.NavigationBar{
+    /* margin: 0%; */
+    width:34vw;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.logoImage{
+    justify-content: center;
+    height:fit-content;
+    width:300px;
+}
+.NavLink{
+    text-decoration: none;
+    color: #0F7AC6ff;
+}
+.button{
+    background-color: #AE2220 ; 
+    /* #ea7a94 */
+    color:  #ffffff;
+    height: 30px;
+    width: 70px;
+    font-size: 1.3vw;
+    border:0.5px solid #ffffff;
+    border-radius: 3.5px;
+}
+.button:hover{
+    cursor: pointer;
+    background-color: #ffffff;
+    color: #AE2220;
+    border:0.5px solid #AE2220;
+}
+.active{
+    color: #F7B31Eff;
+}
+
+@media only screen and (max-width:600px) {
+    .header{
+        padding:0 2.5%;
+        height: 60px;
+        font-size: 5vw;
+        justify-content: space-between;
+    }
+    .logoImage{
+        margin-top: 15%;
+        height: 40px;
+        width: 70px;
+    }
+    .NavigationBar{
+        width: 10vw;
+    }
+}
