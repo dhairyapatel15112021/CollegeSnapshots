@@ -1,3 +1,6 @@
+# CollegeSnapshots
+CollegeSnapshots is a dynamic one-page landing platform crafted to provide a glimpse into your college campus. Through vibrant visuals and concise content, students can virtually tour the college premises. Featuring an overview of available courses, CollegeSnapshots offers a comprehensive look into the educational offerings of the institution.Embark on a digital journey and explore the vibrant campus life from the comfort of your screen.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
