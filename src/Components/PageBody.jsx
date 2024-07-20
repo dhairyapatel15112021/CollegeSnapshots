@@ -1,6 +1,5 @@
 import React from 'react';
 import './PageBody.css';
-import video from '../Assets/New_Video.mp4';
 import Slide from './Slide';
 
 function PageBody() {
@@ -11,7 +10,7 @@ function PageBody() {
           <div className='campus_heading'>Our <span className='span'>Campus</span></div>
           <div className='Media'>
             <video className='video' autoPlay muted>
-              <source src={video} type="video/mp4" />
+              <source src="https://res.cloudinary.com/dr8w2gb6b/video/upload/v1721403086/video_5.mp4" type="video/mp4" />
             </video>
           </div>
         </div>
