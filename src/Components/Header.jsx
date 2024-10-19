@@ -19,7 +19,7 @@ function Header() {
     <div className='header'>
       <div className='logo'><Link to='/'><img className='logoImage' src={isMobile?img1:img} alt='LOGO'></img></Link></div>
       <div className='NavigationBar'>{
-        isMobile ? <div > <i class="fa-solid fa-bars"></i></div>:
+        isMobile ? <div > <i className="fa-solid fa-bars"></i></div>:
         <>
         <div> <NavLink to='/' className={({ isActive }) => `${isActive ? "active" : ""} NavLink`}>Home </NavLink> </div>
         <div> <NavLink to='/about' className={({ isActive }) => `${isActive ? "active" : ""} NavLink`}>About Us</NavLink> </div>

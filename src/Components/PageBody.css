@@ -100,6 +100,13 @@
     border-radius: 1vw;
     box-shadow: rgba(147, 145, 145, 0.35) 15px 15px 15px;
 }
+
+.loaderMediaParent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 220px;
+}
 .rightcard_heading{
     margin-top: 3%;
     height: 20%;
@@ -142,6 +149,9 @@
         height:22.5vh ;
     }
     .video{
+        height: 22vh;
+    }
+    .loaderMediaParent{
         height: 22vh;
     }
     .campus_heading {
